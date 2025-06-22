@@ -5,7 +5,7 @@ import os
 
 
 # ✅ Configure the Gemini API
-genai.configure(api_key= "AIzaSyBTASLI9yLK7IGM_kFhES1VL7kUoYn572o")  # Replace with your actual Gemini API key
+genai.configure(api_key= st.secrets["gemini_api_key"])  # Replace with your actual Gemini API key
 
 
 # ✅ Create the Gemini model instance
