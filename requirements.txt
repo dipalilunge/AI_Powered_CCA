@@ -4,3 +4,4 @@ langchain
 PyMuPDF
 markdown
 python-dotenv
+google.generativeai
