@@ -15,8 +15,8 @@ if uploaded_file:
 
     st.subheader("🎯 Suggested Daily Goals")
     for goal in generate_goals(content):
-        st.markdown(f"- {goal}")
+        st.markdown(goal)
 
     st.subheader("❓ Recall Quiz (MCQs)")
     for mcq in generate_mcqs(content):
-        st.markdown(f"-{mcq}")
+        st.markdown(mcq)
