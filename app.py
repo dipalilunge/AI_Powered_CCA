@@ -19,4 +19,4 @@ if uploaded_file:
 
     st.subheader("❓ Recall Quiz (MCQs)")
     for mcq in generate_mcqs(content):
-        st.markdown(mcq)
+        st.markdown(f"-{mcq}")
