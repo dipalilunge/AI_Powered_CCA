@@ -2,10 +2,10 @@ import google.generativeai as genai
 from .prompts import SUMMARY_PROMPT_TEMPLATE, GOAL_PROMPT_TEMPLATE, MCQ_PROMPT_TEMPLATE
 from langchain_core.prompts import PromptTemplate
 import os
-
+import streamlit as st
 
 # ✅ Configure the Gemini API
-genai.configure(api_key= st.secrets["gemini_api_key"])  # Replace with your actual Gemini API key
+genai.configure(api_key= st.secrets["api_key"])  # Replace with your actual Gemini API key
 
 
 # ✅ Create the Gemini model instance
